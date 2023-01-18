@@ -2,231 +2,94 @@
  //you can change the questions to your own taste or even add more questions..
  const questions = [
     {
-        question: "How many days makes a week ?",
-        optionA: "10 days",
-        optionB: "14 days",
-        optionC: "5 days",
-        optionD: "7 days",
-        correctOption: "optionD"
+        question: "What is an inventory?",
+        optionA: "A list of items a person owned along with each item's value",
+        optionB: "A place where scientific experiments are conducted",
+        optionC: "A list of things that are similar ",
+        optionD: "None of the above",
+        correctOption: "optionA"
     },
 
     {
-        question: "How many players are allowed on a soccer pitch ?",
-        optionA: "10 players",
-        optionB: "11 players",
-        optionC: "9 players",
-        optionD: "12 players",
+        question: "What is an abolitionist?",
+        optionA: "A person who had a lot of skills",
+        optionB: "A person who didn't like anything",
+        optionC: "A person who fought to end the practice of slavery",
+        optionD: "A person who knew where to find all the enslaved people ",
+        correctOption: "optionC"
+    },
+
+    {
+        question: "Which best describes an indentured servant: <br>(*Hint - see 'Other Sources of Colonial Labor' in the Life Before Enslavement box)",
+        optionA: "Someone who is forced to work for someone else for the rest of their lives",
+        optionB: "Someone who willingly signed a contract to work for an employer for a term of four to seven years and was freed after that time was done",
+        optionC: "Someone who was born into servitude",
+        optionD: "Someone who had a lot of problems with their teeth",
         correctOption: "optionB"
     },
 
     {
-        question: "Who was the first President of USA ?",
-        optionA: "Donald Trump",
-        optionB: "Barack Obama",
-        optionC: "Abraham Lincoln",
-        optionD: "George Washington",
+        question: "What would some typical tasks be for the enslaved women of the house? <br> (*Hint- see the House and Kitchen section in the Daily Life box)",
+        optionA: "Cooking and cleaning",
+        optionB: "Laundry and sewing",
+        optionC: "Candle making and child care",
+        optionD: "All of the above",
         correctOption: "optionD"
     },
 
     {
-        question: "30 days has ______ ?",
-        optionA: "January",
-        optionB: "December",
-        optionC: "June",
-        optionD: "August",
+        question: "Who was born into slavery at Marlpit Hall and continued to work for the Taylor family after she was freed?",
+        optionA: "Matilda",
+        optionB: "Hannah",
+        optionC: "Elizabeth",
+        optionD: "Mary",
         correctOption: "optionC"
     },
 
     {
-        question: "How manay hours can be found in a day ?",
-        optionA: "30 hours",
-        optionB: "38 hours",
-        optionC: "48 hours",
-        optionD: "24 hours",
+        question: "What was found Beneath the Floorboards of the slave quarters in Marlpit Hall?",
+        optionA: "Shards",
+        optionB: "Clamshells",
+        optionC: "Pieces of clothing",
+        optionD: "All of the above",
         correctOption: "optionD"
     },
 
     {
-        question: "Which is the longest river in the world ?",
-        optionA: "River Nile",
-        optionB: "Long River",
-        optionC: "River Niger",
-        optionD: "Lake Chad",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "_____ is the hottest Continent on Earth ?",
-        optionA: "Oceania",
-        optionB: "Antarctica",
-        optionC: "Africa",
-        optionD: "North America",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "Which country is the largest in the world ?",
-        optionA: "Russia",
-        optionB: "Canada",
-        optionC: "Africa",
-        optionD: "Egypt",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "Which of these numbers is an odd number ?",
-        optionA: "Ten",
-        optionB: "Twelve",
-        optionC: "Eight",
-        optionD: "Eleven",
-        correctOption: "optionD"
-    },
-
-    {
-        question: `"You Can't see me" is a popular saying by`,
-        optionA: "Eminem",
-        optionB: "Bill Gates",
-        optionC: "Chris Brown",
-        optionD: "John Cena",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "Where is the world tallest building located ?",
-        optionA: "Africa",
-        optionB: "California",
-        optionC: "Dubai",
-        optionD: "Italy",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "The longest river in the United Kingdom is ?",
-        optionA: "River Severn",
-        optionB: "River Mersey",
-        optionC: "River Trent",
-        optionD: "River Tweed",
-        correctOption: "optionA"
-    },
-
-
-    {
-        question: "How many permanent teeth does a dog have ?",
-        optionA: "38",
-        optionB: "42",
-        optionC: "40",
-        optionD: "36",
+        question: "What type of traditional African song do we still hear in our music today?",
+        optionA: "Jazz",
+        optionB: "Call and response",
+        optionC: "Hoodoo",
+        optionD: "Spirituals",
         correctOption: "optionB"
     },
 
     {
-        question: "Which national team won the football World cup in 2018 ?",
-        optionA: "England",
-        optionB: "Brazil",
-        optionC: "Germany",
-        optionD: "France",
+        question: "What is true about spirituals?",
+        optionA: "They were sung by the enslaved to express emotions of religious devotion, joy, sorrow, and hope",
+        optionB: "They were a form of resistance",
+        optionC: "They could contain secret messages",
+        optionD: "All of the above",
         correctOption: "optionD"
     },
 
     {
-        question: "Which US state was Donald Trump Born ?",
-        optionA: "New York",
-        optionB: "California",
-        optionC: "New Jersey",
-        optionD: "Los Angeles",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "How man states does Nigeria have ?",
-        optionA: "24",
-        optionB: "30",
-        optionC: "36",
-        optionD: "37",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "____ is the capital of Nigeria ?",
-        optionA: "Abuja",
-        optionB: "Lagos",
-        optionC: "Calabar",
-        optionD: "Kano",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "Los Angeles is also known as ?",
-        optionA: "Angels City",
-        optionB: "Shining city",
-        optionC: "City of Angels",
-        optionD: "Lost Angels",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "What is the capital of Germany ?",
-        optionA: "Georgia",
-        optionB: "Missouri",
-        optionC: "Oklahoma",
-        optionD: "Berlin",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "How many sides does an hexagon have ?",
-        optionA: "Six",
-        optionB: "Sevene",
-        optionC: "Four",
-        optionD: "Five",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "How many planets are currently in the solar system ?",
-        optionA: "Eleven",
-        optionB: "Seven",
-        optionC: "Nine",
-        optionD: "Eight",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "Which Planet is the hottest ?",
-        optionA: "Jupitar",
-        optionB: "Mercury",
-        optionC: "Earth",
-        optionD: "Venus",
+        question: "Pretending to be sick, breaking tools, burning meals, and running away were all forms of",
+        optionA: "Not understanding what they were supposed to do",
+        optionB: "Resistance",
+        optionC: "Being bad",
+        optionD: "Fooling around",
         correctOption: "optionB"
     },
 
     {
-        question: "where is the smallest bone in human body located?",
-        optionA: "Toes",
-        optionB: "Ears",
-        optionC: "Fingers",
-        optionD: "Nose",
+        question: "What is a primary source?",
+        optionA: "When a person tells you something true",
+        optionB: "Original items created during the time you are studying that help to tell you about that time period",
+        optionC: "The best explanation you can find on a topic",
+        optionD: "None of the above",
         correctOption: "optionB"
-    },
-
-    {
-        question: "How many hearts does an Octopus have ?",
-        optionA: "One",
-        optionB: "Two",
-        optionC: "Three",
-        optionD: "Four",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "How many teeth does an adult human have ?",
-        optionA: "28",
-        optionB: "30",
-        optionC: "32",
-        optionD: "36",
-        correctOption: "optionC"
     }
-
 ]
 
 
