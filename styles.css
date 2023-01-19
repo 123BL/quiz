@@ -35,8 +35,8 @@ main{
 }
 
 .game-quiz-container{
-    width: 40rem;
-    height: 30rem;
+    width: 50rem;
+    height: 40rem;
     background-color: lightgray;
     display: flex;
     flex-direction: column;
@@ -93,6 +93,7 @@ span label{
     transition: transform 0.3s;
     font-weight: 600;
     color: rgb(22, 22, 22);
+    text-align: center;
 }
 
 span label:hover{
@@ -280,13 +281,13 @@ input[type=radio]:checked ~ .option {
     to {opacity: 1;}
   }
   #display-question{
-    font-size: 15px;
+    font-size: 20px;
   }
   .option{
-    font-size: 70%;
+    font-size: 90%;
   }
   .game-options-container span{
-    width: 70%;
+    width: 750%;
     height: 3rem;
     border: 2px solid darkgray;
     border-radius: 20px;

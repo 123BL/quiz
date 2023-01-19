@@ -7,7 +7,8 @@
         optionB: "A place where scientific experiments are conducted",
         optionC: "A list of things that are similar ",
         optionD: "None of the above",
-        correctOption: "optionA"
+        correctOption: "optionA",
+        correctPopUp: "Enslaved people were listed in house and farm inventories, among other items such as animals, tools, and furniture."
     },
 
     {
@@ -16,7 +17,8 @@
         optionB: "A person who didn't like anything",
         optionC: "A person who fought to end the practice of slavery",
         optionD: "A person who knew where to find all the enslaved people ",
-        correctOption: "optionC"
+        correctOption: "optionC",
+        correctPopUp: "An abolitionist did not believe in slavery and made an effort to work towards freeing the enslaved. They refused to own slaves, they felt Blacks should be paid the same as Whites for the same work, and they worked hard to convince other people through speeches and newspapers that slavery was wrong."
     },
 
     {
@@ -25,7 +27,8 @@
         optionB: "Someone who willingly signed a contract to work for an employer for a term of four to seven years and was freed after that time was done",
         optionC: "Someone who was born into servitude",
         optionD: "Someone who had a lot of problems with their teeth",
-        correctOption: "optionB"
+        correctOption: "optionB",
+        correctPopUp: "Indentured servants made the choice to sell their time and labor to someone in exchange for things like ship fare to get to this country. In addition, the employer would provide them a place to sleep and food and clothing. At the end of their term of servitude, they were free."
     },
 
     {
@@ -34,7 +37,8 @@
         optionB: "Laundry and sewing",
         optionC: "Candle making and child care",
         optionD: "All of the above",
-        correctOption: "optionD"
+        correctOption: "optionD",
+        correctPopUp: "Women were responsible for a great number of tasks. In addition to the ones listed above, they were also responsible for kitchen gardens, soap making, hauling up heavy buckets of water from a well or stream, and all the food preparation, which included the slaughtering and cleaning of animals."
     },
 
     {
@@ -43,7 +47,8 @@
         optionB: "Hannah",
         optionC: "Elizabeth",
         optionD: "Mary",
-        correctOption: "optionC"
+        correctOption: "optionC",
+        correctPopUp: "Elizabeth Van Cleaf was born at Marlpit in 1806. She was freed at 21, but remained with the Taylor family. She had been Mary’s caretaker since she was eight years old, and worked for Mary for the next seven decades."
     },
 
     {
@@ -52,7 +57,8 @@
         optionB: "Clamshells",
         optionC: "Pieces of clothing",
         optionD: "All of the above",
-        correctOption: "optionD"
+        correctOption: "optionD",
+        correctPopUp: "The items found beneath the floorboards were evidence of Hoodoo, a religion that blended African traditions with Christian beliefs. Enslavers did not like Hoodoo because it held on to traditions from Africa, which they felt was an uncivilized place. The enslaved needed to hide the Hoodoo objects where they would not easily be seen if they wanted to be able to practice it without getting in trouble."
     },
 
     {
@@ -61,7 +67,8 @@
         optionB: "Call and response",
         optionC: "Hoodoo",
         optionD: "Spirituals",
-        correctOption: "optionB"
+        correctOption: "optionB",
+        correctPopUp: "Call and response entails a person calling out to a group, who then respond back together right after. We still hear this in the music of today in the form of vocals and of clapping."
     },
 
     {
@@ -70,7 +77,8 @@
         optionB: "They were a form of resistance",
         optionC: "They could contain secret messages",
         optionD: "All of the above",
-        correctOption: "optionD"
+        correctOption: "optionD",
+        correctPopUp: "All of the above are true. Spirituals were sung by the enslaved to express different emotions, and could contain secret messages that would help their chances of escape. Because the songs often protested the condition of enslavement, they are considered a form of resistance."
     },
 
     {
@@ -79,7 +87,8 @@
         optionB: "Resistance",
         optionC: "Being bad",
         optionD: "Fooling around",
-        correctOption: "optionB"
+        correctOption: "optionB",
+        correctPopUp: "There were many different ways to resist. Running away was the most extreme because it would come with a heavy punishment if the individual got caught. Little daily forms of resistance would be done to slow work production or protest their condition."
     },
 
     {
@@ -88,7 +97,8 @@
         optionB: "Original items created during the time you are studying that help to tell you about that time period",
         optionC: "The best explanation you can find on a topic",
         optionD: "None of the above",
-        correctOption: "optionB"
+        correctOption: "optionB",
+        correctPopUp: "Primary sources include diaries, newspapers, account books, maps, photographs, letters, and artifacts like tools or clothing."
     }
 ]
 
