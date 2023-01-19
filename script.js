@@ -134,7 +134,13 @@ function NextQuestion(index) {
     document.getElementById("option-two-label").innerHTML = currentQuestion.optionB;
     document.getElementById("option-three-label").innerHTML = currentQuestion.optionC;
     document.getElementById("option-four-label").innerHTML = currentQuestion.optionD;
-
+    document.getElementById("option-popup").innerHTML = correctPopUp;//i hope "option-popup" and "correctPopUp" are in the right spots, and not mixed up
+//the new correctPopUp needs these things to work:
+//the graphics taken from the "please choose an option" modal
+//it needs to be in each question object thingy(done)
+//it needs to be set invisible, only to be visible when the correct option is choosen
+//the correctPopUp text needs to change along with the rest of the questions changing
+//and probably other things too that i forgor
 }
 
 
@@ -162,10 +168,11 @@ function checkForAnswer() {
             document.getElementById(correctOption).style.backgroundColor = "green"
             playerScore++ //adding to player's score
             indexNumber++ //adding 1 to index so has to display next question..
+            document.getElementById(correctPopUp).style.visibility = "true"
             //set to delay question number till when next question loads
             setTimeout(() => {
                 questionNumber++
-            }, 1000)
+            }, 2000)
         }
 
         else if (option.checked && option.value !== currentQuestionAnswer) {
