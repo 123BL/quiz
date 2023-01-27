@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+</html>
 <body onload="NextQuestion(0)">
     <main>
         <!-- creating a modal for when quiz ends -->
@@ -50,18 +59,28 @@
 
                </div>
 <!-- correct pop up -->
-               <!-- <div class="modal-content-container" id="option-popup" style="visibility: hidden;">
-
-                <div class="modal-content-container">
-                     <h1><label id="correctPopUp"></label></h1>
-
-                     <div class="modal-button-container">
-                        <button onclick="closeOptionModal()">Continue</button>
-                    </div>
-
-                </div>
-
-           </div> -->
+           <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button> -->
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Correct</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          text
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
                 <span>
                     <input type="radio" id="option-one" name="option" class="radio" value="optionA" />
@@ -88,7 +107,9 @@
 
 
             </div>
-
+<div>
+    <img id="questionImg" src="">
+</div>
             <div class="next-button-container">
                 <button onclick="handleNextQuestion()">Next Question</button>
             </div>
