@@ -293,3 +293,6 @@ input[type=radio]:checked ~ .option {
     border-radius: 20px;
     overflow: hidden;
 }
+h1 {
+    font-size: 14px;
+}

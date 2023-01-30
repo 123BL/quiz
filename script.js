@@ -26,7 +26,7 @@
     {
         question: "Which best describes an indentured servant: <br>(*Hint - see 'Other Sources of Colonial Labor' in the Life Before Enslavement box)",
         optionA: "Someone who is forced to work for someone else for the rest of their lives",
-        optionB: "Someone who willingly signed a contract to work for an employer for a term of four to seven years and was freed after that time was done",
+        optionB: "<h1>Someone who willingly signed a contract to work for an employer for a term of four to seven years and was freed after that time was done</h1>",
         optionC: "Someone who was born into servitude",
         optionD: "Someone who had a lot of problems with their teeth",
         correctOption: "optionB",
