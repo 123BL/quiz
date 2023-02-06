@@ -144,7 +144,7 @@ function NextQuestion(index) {
     document.getElementById("option-two-label").innerHTML = currentQuestion.optionB;
     document.getElementById("option-three-label").innerHTML = currentQuestion.optionC;
     document.getElementById("option-four-label").innerHTML = currentQuestion.optionD;
-// *  document.getElementById("option-popup").innerHTML = shuffledQuestions[index].correctPopUp;
+document.getElementById("modalPoop").innerHTML = shuffledQuestions[index].correctPopUp;
   document.getElementById("questionImg").src = shuffledQuestions[index].image;
  console.log(shuffledQuestions[index].correctPopUp);
     //i hope "option-popup" and "correctPopUp" are in the right spots, and not mixed up
@@ -154,6 +154,7 @@ function NextQuestion(index) {
 //it needs to be set invisible, only to be visible when the correct option is choosen
 //the correctPopUp text needs to change along with the rest of the questions changing
 //and probably other things too that i forgor
+// make the button to close the modal and proceed to next question grayed out until the timer ends
 }
 
 
@@ -181,11 +182,11 @@ function checkForAnswer() {
             document.getElementById(correctOption).style.backgroundColor = "green"
             playerScore++ //adding to player's score
             indexNumber++ //adding 1 to index so has to display next question..
-//  *// MAKE THIS TOGGLE THE BOOTSTRAP MODAL ON
+          
             //set to delay question number till when next question loads
             setTimeout(() => {
                 questionNumber++
-            }, 2000)
+            }, 8000)
         }
 
         else if (option.checked && option.value !== currentQuestionAnswer) {
@@ -194,10 +195,11 @@ function checkForAnswer() {
             document.getElementById(correctOption).style.backgroundColor = "green"
             wrongAttempt++ //adds 1 to wrong attempts 
             indexNumber++
+
             //set to delay question number till when next question loads
             setTimeout(() => {
                 questionNumber++
-            }, 1000)
+            }, 8000)
         }
     })
 }
@@ -218,7 +220,7 @@ function handleNextQuestion() {
             handleEndGame()//ends game if index number greater than 9 meaning we're already at the 10th question
         }
         resetOptionBackground()
-    }, 1000);
+    }, 8000);
 }
 
 //sets options background back to null after display the right/wrong colors
@@ -232,7 +234,7 @@ function resetOptionBackground() {
 // unchecking all radio buttons for next question(can be done with map or foreach loop also)
 function unCheckRadioButtons() {
     const options = document.getElementsByName("option");
-// * // document.getElementById(correctPopUp).style.visibility = "false";
+// //* document.getElementById(correctPopUp).style.visibility = "false";
     for (let i = 0; i < options.length; i++) {
         options[i].checked = false;
     }
@@ -245,15 +247,15 @@ function handleEndGame() {
 
     // condition check for player remark and remark color
     if (playerScore <= 3) {
-        remark = "Bad Grades, Keep Practicing."
+        remark = "Bad Grades."
         remarkColor = "red"
     }
     else if (playerScore >= 4 && playerScore < 7) {
-        remark = "Average Grades, You can do better."
+        remark = "Average Grades, you can do better."
         remarkColor = "orange"
     }
     else if (playerScore >= 7) {
-        remark = "Excellent, Keep the good work going."
+        remark = "Excellent job!"
         remarkColor = "green"
     }
     const playerGrade = (playerScore / 10) * 100
