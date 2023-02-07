@@ -17,7 +17,9 @@ body{
 
 }
 
-
+h1 {
+    font-weight: bold;
+}
 
 main{
     width: 100%;
@@ -28,7 +30,6 @@ main{
     align-items: center;
     background-color: black;
     background: url('../assets/background_image.jpg');
-    background-color : black;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
