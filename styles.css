@@ -11,6 +11,13 @@ html, body{
     height: 100%;
 }
 
+#player-score{
+    font-family: massilia, sans-serif;
+}
+/* the player score and question number arent in the h1 tag somehow */
+#question-number{
+    font-family: massilia, sans-serif;
+}
 
 body{
     font-family: 'Montserrat', serif;
