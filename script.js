@@ -158,7 +158,6 @@ document.getElementById("modalPoop").innerHTML = shuffledQuestions[index].correc
 }
 
 
-
 function checkForAnswer() {
     const currentQuestion = shuffledQuestions[indexNumber] //gets current Question 
     const currentQuestionAnswer = currentQuestion.correctOption //gets current Question's answer
@@ -177,10 +176,6 @@ function checkForAnswer() {
         document.getElementById('option-modal').style.display = "flex"
     }
 
-function hideModal(){
-    $('#staticBackdrop').toggle();
-}
-
     //checking if checked radio button is same as answer
     options.forEach((option) => {
         if (option.checked === true && option.value === currentQuestionAnswer) {
@@ -190,9 +185,8 @@ function hideModal(){
           
             //set to delay question number till when next question loads
             setTimeout(() => {
-                hideModal();
-                questionNumber++;
-            }, 4000)
+                questionNumber++
+            }, 8000)
         }
 
         else if (option.checked && option.value !== currentQuestionAnswer) {
@@ -204,9 +198,8 @@ function hideModal(){
 
             //set to delay question number till when next question loads
             setTimeout(() => {
-                hideModal();
-                questionNumber++;
-            }, 4000)
+                questionNumber++
+            }, 8000)
         }
     })
 }
@@ -227,7 +220,7 @@ function handleNextQuestion() {
             handleEndGame()//ends game if index number greater than 9 meaning we're already at the 10th question
         }
         resetOptionBackground()
-    }, 4000);
+    }, 8000);
 }
 
 //sets options background back to null after display the right/wrong colors
