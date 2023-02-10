@@ -276,7 +276,8 @@ function handleEndGame() {
     document.getElementById('score-modal').style.display = "flex"
 
 }
-
+var backdrop = document.getElementsByClassName('modal-backdrop')
+var popup = document.getElementById('score-modal')
 //closes score modal, resets game and reshuffles questions
 function closeScoreModal() {
     questionNumber = 1
@@ -284,8 +285,10 @@ function closeScoreModal() {
     wrongAttempt = 0
     indexNumber = 0
     shuffledQuestions = []
-    NextQuestion(indexNumber)
-    document.getElementById('score-modal').style.display = "none"
+    NextQuestion(indexNumber);
+    // document.getElementById('score-modal').style.display = "none"
+    popup.parentNode.removeChild(popup);
+    backdrop.parentNode.removeChild(backdrop);
 }
 
 //function to close warning modal
