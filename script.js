@@ -287,8 +287,9 @@ function closeScoreModal() {
     shuffledQuestions = []
     NextQuestion(indexNumber);
     // document.getElementById('score-modal').style.display = "none"
-    popup.parentNode.removeChild(popup);
-    backdrop.parentNode.removeChild(backdrop);
+    $('.modal-backdrop').remove();
+    $('.staticBackdrop').remove();
+    
 }
 
 //function to close warning modal
