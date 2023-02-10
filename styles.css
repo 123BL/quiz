@@ -11,6 +11,13 @@ html, body{
     height: 100%;
 }
 
+#player-score{
+    font-family: massilia, sans-serif;
+}
+/* the player score and question number arent in the h1 tag somehow */
+#question-number{
+    font-family: massilia, sans-serif;
+}
 
 body{
     font-family: 'Montserrat', serif;
@@ -45,6 +52,7 @@ main{
     align-items: center;
     justify-content: space-around;
     border-radius: 30px;
+
 }
 
 .game-details-container{
@@ -298,8 +306,4 @@ input[type=radio]:checked ~ .option {
 }
 h1 {
     font-size: 14px;
-}
-
-.game-quiz-container {
-    padding: 10px;
 }
